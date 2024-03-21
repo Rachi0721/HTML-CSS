@@ -1,0 +1,41 @@
+body{
+    background-color: wheat;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 50%;
+    height: 70%;
+    padding: 16px;
+    background-color: oldlace;
+    box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.7);   
+}
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background-color: white;
+}
+input[type="text"]:focus,
+input[type="password"]:focus{
+    background-color: white;
+    outline: none;
+}
+.registerbtn{
+    width: 100%;
+    padding: 16px;
+    cursor: pointer;
+    opacity: 0.7px;
+    background-color: wheat;
+    color: black;
+    margin: auto;
+    border: none;
+}
+.registerbtn:hover{
+    opacity: 0.7;
+}
